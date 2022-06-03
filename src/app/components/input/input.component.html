@@ -1,0 +1,14 @@
+<label for="input" class="form-label">Input</label>
+<input
+  type="text"
+  [(ngModel)]="input.angularInput"
+  name="input"
+  class="form-control"
+  autocomplete="off"
+/>
+<input
+  type="button"
+  value="Next Page"
+  class="btn btn-primary mt-3"
+  (click)="nextPage()"
+/>
